@@ -1,0 +1,16 @@
+PODS:
+  - R.swift (7.3.2)
+
+DEPENDENCIES:
+  - R.swift
+
+SPEC REPOS:
+  trunk:
+    - R.swift
+
+SPEC CHECKSUMS:
+  R.swift: 0af0d882f49f03711415cb4e5215daa977d8a480
+
+PODFILE CHECKSUM: 34f82afeec99be9dbaf1255d4f24f8d5d33c50bb
+
+COCOAPODS: 1.12.1

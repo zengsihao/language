@@ -1,0 +1,6 @@
+framework module Pods_languageces_languagecesUITests {
+  umbrella header "Pods-languageces-languagecesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
