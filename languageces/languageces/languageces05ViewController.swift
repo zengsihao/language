@@ -7,7 +7,7 @@ class languageces05ViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        self.title = R.string.localizable.transactionIdLabelTitle()
+        self.title = R.string.localizable.subtitle_transaction_num()
     }
     
 

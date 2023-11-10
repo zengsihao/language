@@ -7,7 +7,7 @@ class languageces02ViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        self.title = R.string.localizable.transactionNetworkLabelTitle()
+        self.title = R.string.localizable.action_networks()
     }
     
 

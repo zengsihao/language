@@ -7,7 +7,7 @@ class languageces08ViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        self.title = R.string.localizable.transactionGasFeeLabelTitle()
+        self.title = R.string.localizable.subtitle_gas_fee()
         
     }
     

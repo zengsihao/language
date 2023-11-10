@@ -27,6 +27,8 @@
 		E717353D2AFCD5FF00C36CA1 /* languageces05ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E717353C2AFCD5FF00C36CA1 /* languageces05ViewController.swift */; };
 		E717353F2AFCD60500C36CA1 /* languageces08ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E717353E2AFCD60500C36CA1 /* languageces08ViewController.swift */; };
 		E71735412AFCD94A00C36CA1 /* dwewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71735402AFCD94A00C36CA1 /* dwewViewController.swift */; };
+		E71735452AFE0C3400C36CA1 /* test00ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71735442AFE0C3400C36CA1 /* test00ViewController.m */; };
+		E717354A2AFE0C7300C36CA1 /* efrereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E71735492AFE0C7300C36CA1 /* efrereViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,11 @@
 		E717353C2AFCD5FF00C36CA1 /* languageces05ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = languageces05ViewController.swift; sourceTree = "<group>"; };
 		E717353E2AFCD60500C36CA1 /* languageces08ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = languageces08ViewController.swift; sourceTree = "<group>"; };
 		E71735402AFCD94A00C36CA1 /* dwewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dwewViewController.swift; sourceTree = "<group>"; };
+		E71735422AFE0C3400C36CA1 /* languageces-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "languageces-Bridging-Header.h"; sourceTree = "<group>"; };
+		E71735432AFE0C3400C36CA1 /* test00ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test00ViewController.h; sourceTree = "<group>"; };
+		E71735442AFE0C3400C36CA1 /* test00ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test00ViewController.m; sourceTree = "<group>"; };
+		E71735482AFE0C7300C36CA1 /* efrereViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = efrereViewController.h; sourceTree = "<group>"; };
+		E71735492AFE0C7300C36CA1 /* efrereViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = efrereViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,11 +173,16 @@
 				E717353A2AFCD5F900C36CA1 /* languageces03ViewController.swift */,
 				E717353C2AFCD5FF00C36CA1 /* languageces05ViewController.swift */,
 				E717353E2AFCD60500C36CA1 /* languageces08ViewController.swift */,
+				E71735432AFE0C3400C36CA1 /* test00ViewController.h */,
+				E71735442AFE0C3400C36CA1 /* test00ViewController.m */,
+				E71735482AFE0C7300C36CA1 /* efrereViewController.h */,
+				E71735492AFE0C7300C36CA1 /* efrereViewController.m */,
 				E71735302AFCD52E00C36CA1 /* Localizable.strings */,
 				E71734FF2AFCD3A500C36CA1 /* Main.storyboard */,
 				E71735022AFCD3A600C36CA1 /* Assets.xcassets */,
 				E71735042AFCD3A600C36CA1 /* LaunchScreen.storyboard */,
 				E71735072AFCD3A600C36CA1 /* Info.plist */,
+				E71735422AFE0C3400C36CA1 /* languageces-Bridging-Header.h */,
 			);
 			path = languageces;
 			sourceTree = "<group>";
@@ -266,6 +278,7 @@
 				TargetAttributes = {
 					E71734F52AFCD3A500C36CA1 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 					E717350B2AFCD3A600C36CA1 = {
 						CreatedOnToolsVersion = 15.0;
@@ -454,12 +467,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E717353F2AFCD60500C36CA1 /* languageces08ViewController.swift in Sources */,
+				E717354A2AFE0C7300C36CA1 /* efrereViewController.m in Sources */,
 				E71734FE2AFCD3A500C36CA1 /* ViewController.swift in Sources */,
 				E717353B2AFCD5F900C36CA1 /* languageces03ViewController.swift in Sources */,
 				E71734FA2AFCD3A500C36CA1 /* AppDelegate.swift in Sources */,
 				E71735392AFCD5F200C36CA1 /* languageces02ViewController.swift in Sources */,
 				E71734FC2AFCD3A500C36CA1 /* SceneDelegate.swift in Sources */,
 				E717353D2AFCD5FF00C36CA1 /* languageces05ViewController.swift in Sources */,
+				E71735452AFE0C3400C36CA1 /* test00ViewController.m in Sources */,
 				E71735412AFCD94A00C36CA1 /* dwewViewController.swift in Sources */,
 				E717352B2AFCD50C00C36CA1 /* R.generated.swift in Sources */,
 				E71735372AFCD5EA00C36CA1 /* languageces01ViewController.swift in Sources */,
@@ -654,6 +669,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 93NPCXJNR2;
@@ -673,6 +689,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sihao.project.notes.languageces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "languageces/languageces-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -684,6 +702,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 93NPCXJNR2;
@@ -703,6 +722,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sihao.project.notes.languageces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "languageces/languageces-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
